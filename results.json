@@ -1,0 +1,23 @@
+{
+  "cnn_baseline": {
+    "overall_accuracy": 0.2701294835541003,
+    "closed_ended_accuracy": 0.5398572278405711,
+    "open_ended_f1": 0.0011861239743277277,
+    "open_ended_precision": 0.002085195114685731,
+    "open_ended_recall": 0.0010638750585131283
+  },
+  "vlm": {
+    "overall_accuracy": 0.5871409435927966,
+    "closed_ended_accuracy": 0.8545508625817966,
+    "open_ended_f1": 0.3533884756496938,
+    "open_ended_precision": 0.36009861749176847,
+    "open_ended_recall": 0.35566768902142004
+  },
+  "training_config": {
+    "batch_size": 300,
+    "num_epochs": 30,
+    "learning_rate_cnn": 0.0001,
+    "learning_rate_vlm": 0.0005,
+    "image_size": 224
+  }
+}
