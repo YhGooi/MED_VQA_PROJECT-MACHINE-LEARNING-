@@ -181,7 +181,7 @@ train_dataset = PathVQADataset(
 
 | Parameter | Value |
 |-----------|-------|
-| Batch Size | 300 (CNN), 150 (VLM) |
+| Batch Size | 300 (CNN), 300 (VLM) |
 | Number of Epochs | 30 |
 | Learning Rate (CNN) | 1e-4 |
 | Learning Rate (VLM) | 5e-4 |
@@ -317,29 +317,15 @@ class CrossAttentionBlock(nn.Module):
    - Combine CNN and VLM predictions
    - Multi-scale feature fusion
 
-## 📄 Citation
-
-If you use this code, please cite the PathVQA dataset:
-
-```bibtex
-@article{he2020pathvqa,
-  title={PathVQA: 30000+ Questions for Medical Visual Question Answering},
-  author={He, Xuehai and Zhang, Yichen and Mou, Luntian and Xing, Eric and Xie, Pengtao},
-  journal={arXiv preprint arXiv:2003.10286},
-  year={2020}
-}
-```
 
 ## 📝 License
 
 This project is for educational and research purposes.
 
 ## 👥 Contact
-# Main Contributor Kai Xuan https://github.com/kaixuansoh
 
 For questions or issues, please open an issue in the repository.
 
 ---
 
 **Note**: This project was developed as a machine learning research project for medical visual question answering. Results demonstrate the effectiveness of modern vision-language models for healthcare AI applications.
-
